@@ -64,7 +64,9 @@
     };
     in
     {
-      binwalk-full = with self.python3Packages; toPythonApplication binwalk-full;
+      binwalk-full = with self.python3Packages; toPythonApplication (binwalk-full.overridePythonAttrs {
+        doCheck = false;
+      });
       duet = super.haskell.lib.justStaticExecutables self.haskellPackages.duet;
       qutebrowser = self.libsForQt5.callPackage (./qutebrowser) { };
       agda-bin = super.haskell.lib.enableSeparateBinOutput super.haskellPackages.Agda;
