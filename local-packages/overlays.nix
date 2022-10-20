@@ -14,62 +14,67 @@
   (self: super:
     let
       # Pin all-hies
-      onlyBin = pkg: super.buildEnv {
-        name = "${pkg.name}";
-        paths = [ pkg ];
-        pathsToLink = [ "/bin" "/share" ];
-      };
+      onlyBin = pkg:
+        super.buildEnv {
+          name = "${pkg.name}";
+          paths = [ pkg ];
+          pathsToLink = [ "/bin" "/share" ];
+        };
       gf-core = fetchTarball {
         # insert the desired all-hies commit here
         url = "https://github.com/anka-213/gf-core/archive/nix-support.tar.gz";
         # insert the correct hash after the first evaluation
         sha256 = "1gxaxbkb98xl4mlxs9i8sykcgyvjw2zv3l9whzvzvxwwhwj2jn0k";
       };
-    in
-    {
+    in {
       gf = onlyBin (import gf-core { nixpkgs = super; });
-      myAgda = with self.agdaPackages; self.agda.withPackages [ standard-library cubical ];
+      myAgda = with self.agdaPackages;
+        self.agda.withPackages [ standard-library cubical ];
 
-    }
-  )
+    })
   (self: super:
-    let onlyBin = pkg: super.buildEnv {
-      name = "${pkg.name}";
-      paths = [ pkg ];
-      pathsToLink = [ "/bin" "/share" ];
-    };
-    in
-    let haskellOverrides = pkgs: with pkgs.haskellLib; {
-      overrides = hself: hsuper: {
-        # agda-bin = pkgs.haskell.lib.enableSeparateBinOutput hsuper.Agda;
-        # retrie = pkgs.haskell.lib.dontCheck hsuper.retrie;
-        # retrie = hsuper.retrie.override (drv: {
-        # generateOptparseApplicativeCompletions
-        retrie = (enableSeparateBinOutput (overrideCabal hsuper.retrie (drv: {
-          testToolDepends = drv.testToolDepends or [ ] ++ [ self.mercurial self.git ];
-          broken = false;
-        })
-        ));
-        retrie-bin = generateOptparseApplicativeCompletions [ "retrie" ] (justStaticExecutables (dontCheck (markUnbroken hsuper.retrie)));
-        myPkgs = pkgs;
-        # duet = overrideCabal hsuper.duet (drv: {
-        #   src = fetchTarball {
-        #      url = "https://github.com/chrisdone/duet/archive/959d40db68f4c2df04cabb7677724900d4f71db4.tar.gz";
-        #      sha256 = "05fza01r5bdsj430fiyhcs0lznzs45wfwkjjjqalz1ax5llrx4yv";
-        #   };
-        #   broken = false;
-        # });
-        # nix-shell -p "haskellPackages.ghcWithPackages (pkg: with pkg;[ (haskell.lib.doJailbreak fadno-xml) ])"
-      };
-    };
-    in
-    {
-      binwalk-full = with self.python3Packages; toPythonApplication (binwalk-full.overridePythonAttrs {
-        doCheck = false;
-      });
+    let
+      onlyBin = pkg:
+        super.buildEnv {
+          name = "${pkg.name}";
+          paths = [ pkg ];
+          pathsToLink = [ "/bin" "/share" ];
+        };
+    in let
+      haskellOverrides = pkgs:
+        with pkgs.haskellLib; {
+          overrides = hself: hsuper: {
+            # agda-bin = pkgs.haskell.lib.enableSeparateBinOutput hsuper.Agda;
+            # retrie = pkgs.haskell.lib.dontCheck hsuper.retrie;
+            # retrie = hsuper.retrie.override (drv: {
+            # generateOptparseApplicativeCompletions
+            retrie = (enableSeparateBinOutput (overrideCabal hsuper.retrie
+              (drv: {
+                testToolDepends = drv.testToolDepends or [ ]
+                  ++ [ self.mercurial self.git ];
+                broken = false;
+              })));
+            retrie-bin = generateOptparseApplicativeCompletions [ "retrie" ]
+              (justStaticExecutables (dontCheck (markUnbroken hsuper.retrie)));
+            myPkgs = pkgs;
+            # duet = overrideCabal hsuper.duet (drv: {
+            #   src = fetchTarball {
+            #      url = "https://github.com/chrisdone/duet/archive/959d40db68f4c2df04cabb7677724900d4f71db4.tar.gz";
+            #      sha256 = "05fza01r5bdsj430fiyhcs0lznzs45wfwkjjjqalz1ax5llrx4yv";
+            #   };
+            #   broken = false;
+            # });
+            # nix-shell -p "haskellPackages.ghcWithPackages (pkg: with pkg;[ (haskell.lib.doJailbreak fadno-xml) ])"
+          };
+        };
+    in {
+      binwalk-full = with self.python3Packages;
+        toPythonApplication
+        (binwalk-full.overridePythonAttrs { doCheck = false; });
       duet = super.haskell.lib.justStaticExecutables self.haskellPackages.duet;
       qutebrowser = self.libsForQt5.callPackage (./qutebrowser) { };
-      agda-bin = super.haskell.lib.enableSeparateBinOutput super.haskellPackages.Agda;
+      agda-bin =
+        super.haskell.lib.enableSeparateBinOutput super.haskellPackages.Agda;
       agda-low = super.lowPrio super.haskellPackages.Agda;
       # agda = super.haskellPackages.Agda;
       haskellPackages = super.haskellPackages.override haskellOverrides;
@@ -82,7 +87,9 @@
       # retrie = generateOptparseApplicativeCompletions i;
       retrie = self.haskellPackages.retrie-bin;
       haskellBin = builtins.mapAttrs (k: v: onlyBin v) self.haskellPackages;
-      haskellStatic = builtins.mapAttrs (k: v: super.haskell.lib.justStaticExecutables v) self.haskellPackages;
+      haskellStatic =
+        builtins.mapAttrs (k: v: super.haskell.lib.justStaticExecutables v)
+        self.haskellPackages;
       # retrie = super.haskell.lib.generateOptparseApplicativeCompletions ["retrie"] self.haskellPackages.retrie.bin;
     })
   # (self: super: {
