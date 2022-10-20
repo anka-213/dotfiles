@@ -88,5 +88,25 @@
   # (self: super: {
   #   haskellPackages = super.recurseIntoAttrs super.haskellPackages;
   # })
+  (self: super: {
+    unison-ucm = super.unison-ucm.overrideAttrs (super: rec {
+      milestone_id = "M4b";
+      version = "1.0.${milestone_id}-alpha";
+
+      src = if (self.stdenv.isDarwin) then
+        self.fetchurl {
+          url =
+            "https://github.com/unisonweb/unison/releases/download/release/${milestone_id}/ucm-macos.tar.gz";
+          sha256 = "sha256-UjN1LDknPwAs1ci4HjflymlXBbm8D9d3lPAnoXPnWdY=";
+        }
+      else
+        self.fetchurl {
+          url =
+            "https://github.com/unisonweb/unison/releases/download/release/${milestone_id}/ucm-linux.tar.gz";
+          sha256 = "sha256-9XDVOpYhduhBtFqnMNtRPElsp88tKK3JmIGXORiTFFU=";
+        };
+
+    });
+  })
 
 ]
