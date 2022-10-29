@@ -115,5 +115,8 @@
 
     });
   })
+  (self: super: {
+    go-fuse-version = self.callPackage ./go-fuse-version.nix {} ;
+  })
 
 ]
