@@ -119,4 +119,10 @@
     go-fuse-version = self.callPackage ./go-fuse-version.nix {} ;
   })
 
+  (self: super: {
+    command-not-found-fish = self.writeShellScriptBin "cnf_fish.sh" ''
+      source ${self.nix-index}/etc/profile.d/command-not-found.sh
+      command_not_found_handle $@
+    '' ;
+  })
 ]
