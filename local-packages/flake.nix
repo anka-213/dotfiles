@@ -25,7 +25,7 @@
     {
       packages = forAllSystems (system: {
         # inherit (nixpkgsFor.${system}) stan;
-        # inherit (nixpkgsFor.${system}) binwalk-full;
+        inherit (nixpkgsFor.${system}) binwalk-full;
         inherit (nixpkgsFor.${system}) unison-ucm;
       });
 
