@@ -118,7 +118,9 @@
   (self: super: {
     go-fuse-version = self.callPackage ./go-fuse-version.nix {} ;
   })
-
+  (self: super: {
+    nix-closure-graph = self.callPackage ./nix-closure-graph.nix {};
+  })
   (self: super: {
     command-not-found-fish = self.writeShellScriptBin "cnf_fish.sh" ''
       source ${self.nix-index}/etc/profile.d/command-not-found.sh
