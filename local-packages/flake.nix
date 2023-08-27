@@ -5,6 +5,7 @@
   # https://nixos.org/manual/nix/unstable/command-ref/new-cli/nix3-flake.html#flake-inputs
 
   inputs.nixpkgs.url = "nixpkgs"; # = nixpkgs-unstable
+  # GF-packages: anka-213/cclaw-nix-stuff
 
   # The flake in the current directory.
   # inputs.currentDir.url = ".";
@@ -23,10 +24,23 @@
       );
     in
     {
-      packages = forAllSystems (system: {
+      packages = forAllSystems (system: let myPkgs = nixpkgsFor.${system}; in {
         # inherit (nixpkgsFor.${system}) stan;
         inherit (nixpkgsFor.${system}) binwalk-full;
         inherit (nixpkgsFor.${system}) unison-ucm;
+        # rstudioEnv = super.rstudioWrapper.override {
+        rEnv = myPkgs.rWrapper.override {
+            packages = with myPkgs.rPackages; [
+                tidyverse
+                dplyr
+                fuzzyjoin
+                random
+                rjson
+                Rcpp
+                # ggplot2
+                # reshape2
+                ];
+        };
       });
 
       legacyPackages = nixpkgsFor;
