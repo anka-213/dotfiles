@@ -3,13 +3,15 @@
 
   outputs = { self, nixpkgs }:
     let
-      pkgs = nixpkgs.legacyPackages.x86_64-linux;
-      bclm = pkgs.buildPythonApplication rec {
+      system = "x86_64-darwin";
+      # system = "x86_64-linux";
+      pkgs = nixpkgs.legacyPackages.${system};
+      bclm = pkgs.python3Packages.buildPythonApplication rec {
         pname = "bclm";
         version = "3.10.8";
-        src = pkgs.fetchPypi {
+        src = pkgs.python3Packages.fetchPypi {
           inherit pname version;
-          sha256 = "sha256-00000000000000000000000000000000000000000000";
+          sha256 = "sha256-0000000000000000000000000000000000000000000";
         };
         doCheck = false;
         propagatedBuildInputs = [
@@ -20,9 +22,9 @@
     in
     {
 
-      packages.x86_64-linux.bclm = bclm;
-
-      packages.x86_64-linux.default = self.packages.x86_64-linux.bclm;
-
+      packages.${system} = {
+        bclm = bclm;
+        default = self.packages.${system}.bclm;
+      };
     };
 }
