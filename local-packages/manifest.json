@@ -1648,6 +1648,17 @@
         "/nix/store/g5wj23222662xd4cb2kxfim1qaz08c3p-lazygit-0.40.2"
       ],
       "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.pbzx",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/yah1dh2d6v4pnfvlv7jd938aspkmcfhp-pbzx-1.0.2"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
