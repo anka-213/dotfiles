@@ -1568,6 +1568,17 @@
         "/nix/store/q7k6sxfyrkzvaf3ryrj4s6zksiz228j7-hix"
       ],
       "url": "github:input-output-hk/haskell.nix/deeec55d699fc848aaa9e9e8095e114d46e79b76"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.lldb_9",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/l2yx46bc87a48jaspbqyhqs1pfx6vfyj-lldb-9.0.1"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
