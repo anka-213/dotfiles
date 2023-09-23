@@ -1582,6 +1582,17 @@
         "/nix/store/2558yk8v6qarzjpvrdycamgvgxhyn9hf-helix-23.05"
       ],
       "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nix-closure-graph",
+      "originalUrl": "flake:local",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/j5gj58y0bdb0k4ql6bga1gd3cvahf8a2-nix-closure-graph-2022-10-05"
+      ],
+      "url": "path:/Users/anka/dotfiles/local-packages?lastModified=1694406022&narHash=sha256-vGOdtZDDsqPeURU99ExsFCcqMLDSFDzwMBIGs%2f2uzWw="
     }
   ],
   "version": 2
