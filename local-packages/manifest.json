@@ -608,9 +608,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/cf72xnqhxxd0nzp3drmah6rgy0qvw9mq-act-0.2.32"
+        "/nix/store/ilz4i0kbdxwnpzrvbqq71n0mnnl7yrc9-act-0.2.49"
       ],
-      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     },
     {
       "active": true,
@@ -663,9 +663,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/xcbij1w96624p8gjwzvhmh739lm4pkb6-autojump-22.5.3"
+        "/nix/store/d2hwjz1dp4755l0brx5nxn2m6vlrm08k-autojump-22.5.3"
       ],
-      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     },
     {
       "active": true,
@@ -1224,9 +1224,10 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/qrvrkwykp984ipj13nljixj8f9g0sz99-aria2-1.36.0-bin"
+        "/nix/store/ypr00n1vqycnvhq4ifz5m0i85mx293kk-aria2-1.36.0-man",
+        "/nix/store/yzqp0fzpc2z49jwm55xxzjaifk4cg4h2-aria2-1.36.0-bin"
       ],
-      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     },
     {
       "active": true,
