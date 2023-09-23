@@ -361,17 +361,6 @@
     },
     {
       "active": true,
-      "attrPath": "packages.x86_64-darwin.gf-with-rgl",
-      "originalUrl": "git+file:///Users/anka/cclaw/nix-stuff",
-      "outputs": null,
-      "priority": 5,
-      "storePaths": [
-        "/nix/store/5cvg6m0v34mmhwv2il74fsqs43fbhhzw-gf-3.11.0-with-rgl"
-      ],
-      "url": "git+file:///Users/anka/cclaw/nix-stuff?ref=nix-flakes&rev=6743e9a678d15a9c068965d8ef74e10e5d0f6564"
-    },
-    {
-      "active": true,
       "attrPath": "legacyPackages.x86_64-darwin.spacevim",
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
