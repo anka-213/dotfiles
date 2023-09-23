@@ -28,6 +28,9 @@
       };
     in {
       gf = onlyBin (import gf-core { nixpkgs = super; });
+      # agdaPackages = super.agdaPackages.override {
+      #   Agda = self.haskellStatic.Agda;
+      # };
       myAgda = with self.agdaPackages;
         self.agda.withPackages [ standard-library cubical ];
 
@@ -86,7 +89,9 @@
       hoogle = onlyBin super.haskellPackages.hoogle;
       # retrie = generateOptparseApplicativeCompletions i;
       retrie = self.haskellPackages.retrie-bin;
+      # Avoids conflicts when installing. Full closure size, but doesn't require rebuilding
       haskellBin = builtins.mapAttrs (k: v: onlyBin v) self.haskellPackages;
+      # Only the binaries, not the libraries
       haskellStatic =
         builtins.mapAttrs (k: v: super.haskell.lib.justStaticExecutables v)
         self.haskellPackages;

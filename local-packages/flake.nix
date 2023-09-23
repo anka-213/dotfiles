@@ -29,6 +29,8 @@
         inherit (nixpkgsFor.${system}) binwalk-full;
         inherit (nixpkgsFor.${system}) unison-ucm;
         # rstudioEnv = super.rstudioWrapper.override {
+        # Force rebuild
+        zig = myPkgs.zig.overrideAttrs { pname = "zig-catalina"; };
         rEnv = myPkgs.rWrapper.override {
             packages = with myPkgs.rPackages; [
                 tidyverse
