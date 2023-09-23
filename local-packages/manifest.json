@@ -344,9 +344,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/905jjzfjrsq9z7bfzginb4kbdwsf34ln-python3.10-binwalk-full-2.3.3"
+        "/nix/store/80lxf6dkajs5mf94y5w6fdf60d2chza0-python3.10-binwalk-full-2.3.4"
       ],
-      "url": "git+file:///Users/anka/dotfiles?dir=local-packages&ref=main&rev=88de1149358b72e224a87af8522e234aa729f85e"
+      "url": "git+file:///Users/anka/dotfiles?dir=local-packages"
     },
     {
       "active": true,
@@ -709,9 +709,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/0y7k5dn5jxabs51z227c8lxjmk5j2ri3-gh-2.17.0"
+        "/nix/store/hn58nf5fnvwqjqzmssff06a8h18q44yn-gh-2.33.0"
       ],
-      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     },
     {
       "active": true,
@@ -1361,9 +1361,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/hbml3r10j6xk9dpl6qa8z40zw0b9xmlc-tree-grepper-2.5.0-pre"
+        "/nix/store/47p3l18hzp57g5qf2yn37d340v6l2n7r-tree-grepper-2.5.0-pre"
       ],
-      "url": "github:BrianHicks/tree-grepper/0cb33fb1d1a9bac354d7e3e6c3a8cdddfa1d5f58"
+      "url": "github:BrianHicks/tree-grepper/a6e29e40a3ecb9bd7da0227b82e50e439f06ac8e"
     },
     {
       "active": true,
@@ -1493,7 +1493,7 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/yibmi7ya0mn9pj0c898lka8cvkybrvx0-texlive-combined-2021"
+        "/nix/store/75b5qcff7xqdcf4v3jdsyxa3rpflv826-texlive-combined-2021"
       ],
       "url": "git+file:///Users/anka/projekt/gf-ud-exjobb"
     },
@@ -1515,9 +1515,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/iqg5kly9jipzkk8l8zf6lqp38gzvqv67-ghidra-10.2.2"
+        "/nix/store/sxbyvhlhj7dj38jlbmhhlwbn1scjd15x-ghidra-10.3.1"
       ],
-      "url": "github:NixOS/nixpkgs/126f49a01de5b7e35a43fd43f891ecf6d3a51459"
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     },
     {
       "active": true,
@@ -1548,9 +1548,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/q7k6sxfyrkzvaf3ryrj4s6zksiz228j7-hix"
+        "/nix/store/g0r6dlkwj7yjpnpln4jyijs7cvmw7fq7-hix"
       ],
-      "url": "github:input-output-hk/haskell.nix/deeec55d699fc848aaa9e9e8095e114d46e79b76"
+      "url": "github:input-output-hk/haskell.nix/f398fc55fb8fe16501ff9c9e06d2c88434c4b2c2"
     },
     {
       "active": true,
