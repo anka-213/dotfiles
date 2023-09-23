@@ -1054,17 +1054,6 @@
     },
     {
       "active": true,
-      "attrPath": "legacyPackages.x86_64-darwin.procps",
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "priority": 5,
-      "storePaths": [
-        "/nix/store/kbg6v4h9d7r6gaiwb99fc3fqlzsqi09x-procps-1003.1-2008"
-      ],
-      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
-    },
-    {
-      "active": true,
       "attrPath": "legacyPackages.x86_64-darwin.ninja",
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
