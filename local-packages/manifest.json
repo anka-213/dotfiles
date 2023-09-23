@@ -1637,6 +1637,17 @@
         "/nix/store/9la32zpscdxb9xl7pprq1hzbnphk6m8g-gdu-5.25.0"
       ],
       "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.lazygit",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/g5wj23222662xd4cb2kxfim1qaz08c3p-lazygit-0.40.2"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
