@@ -1556,6 +1556,17 @@
         "/nix/store/lvsb2x5zlz9h7bw2amhxgxx91xx3laxc-password-store-1.7.4"
       ],
       "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.myAgda",
+      "originalUrl": "flake:local",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/vbvzrd45irph3pc1pvb1cspzhgr58pj6-agdaWithPackages-2.6.3"
+      ],
+      "url": "path:/Users/anka/dotfiles/local-packages?lastModified=1694402618&narHash=sha256-3fX22gTmM2Iqc2o36KPwk5gRZHwKpM+P1VnyFSrzSUA="
     }
   ],
   "version": 2
