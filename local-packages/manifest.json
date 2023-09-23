@@ -1,0 +1,1585 @@
+{
+  "elements": [
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/kbd82kjk3qhbyvfj79mzl35z1a3ssvx2-python3.8-memory_profiler-0.55.0"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/013wj5plqxpw84dwhswaqpzqsamalq3k-ghc-8.10.7"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/likakb83wjd9r6m4xgxisnq1w2wb44y0-agdaWithPackages-2.6.2"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/38a642qlyjdds8803lf7pxp4m5m66b4a-pinentry-1.2.0"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/36hzy3nivrg0r81v5axp5jndi6fmf3c3-pinentry-mac-0.9.4"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/fwqj6g0wpn4wizzy57223g0xmssx1jwx-emscripten-2.0.27"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/9mfai1hxy52agjav7gbn6f896jgqs50n-obelisk-command-0.9.0.1"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/0fmwxq86aawc6i3861rc7g2w1c9hkxk5-zulu11.43.21-ca-jdk11.0.9"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/887yi05ydxmkn6rjf0ylymidwpz4pvm6-freeciv-2.6.4"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/yj4156s3mpi5al295ys6jqxi3737sh6v-dosbox-0.74-3"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/jgq3savsyyrpsxvjlrz41nx09z7r0lch-linuxkit-builder"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/crzf7p2byvzc4ysyn6n432v0ywgicd4p-mcrl2-202006"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/q4l640lk7n5imrizbwp39q9mb4pm1zx9-cabal-install-3.4.0.0"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/szgyjd279fs7q8fhzm7d6vps3x2yv23y-nix42b-0.1"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/vcf275wg49w3f8glnxp2byld7hvasz8a-poppler-utils-20.08.0"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/73in1x10nc0yspxglpf945am00sq2y8l-universal-ctags-unstable-2019-07-30"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/aalyigdbwj259k6dzxslkbnknq1mwj54-swi-prolog-8.3.9"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/j1k6wfdi41zbawza2qf7drg2ir9xbln7-apply-refact-0.7.0.0"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/rngpkz151r4k08s11gm8bplmbxin8q62-retrie-0.1.1.1"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/dx9dgzq0fn9fgn6bmg7vw4xq1k6abaf7-duet-0.0.2"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/vsfg730652cxswpx992g29glnl0a2zzj-neuron-0.9.0.0"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/nn26gwxlwn8d72baaxda4adw5kvdvs4m-ytop-0.6.2"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ikkm9x2k0ij59yz8v3ld1gif3ays1x7w-threadscope-0.2.13"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/b4hcs11s1yj7dk31gnb971q463yibznz-BNFC-2.8.4"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/zb16nh1w2vwz7l59f4lhphdasv8vbv47-cabal-plan-0.7.0.0"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/djkn0y0msn9jx78h740sdk4psgs304n9-password-store-1.7.3"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/8f6kzzc2yakfxzx75kn7w8slv3g9p4sr-awscli2-2.0.26"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/f9n8glfn87ypzpp6jdffidhp0qmxmhca-codex-0.6.0.0"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/b8wazmm89539fk5gkfik616vx3033yq7-summoner-tui-2.0.1.1"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/lfw0285cgx8a6f5mblnx2glcm6wc5pj0-hoogle-5.0.17.15"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/a40pmy8j2rkjk8j9zw9647qh3w5ypni5-rmapi-0.0.12"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/8srgays13szay7rdid6djahf1b0vjs43-vagrant-2.2.9"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/mxhhws0lnmkbzabzlcffvfcqcy6hcgvz-stan-0.0.0.0"
+      ]
+    },
+    {
+      "active": true,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/0923vlcm778jwdiysj22h6v32hkwgjxx-pp-haskell"
+      ]
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.vim",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/l1vni1mshjlwyz7wc96ym3pk7mhlgam3-vim-9.0.0609"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "packages.x86_64-darwin.gf-with-rgl",
+      "originalUrl": "git+file:///Users/anka/cclaw/nix-stuff",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/5cvg6m0v34mmhwv2il74fsqs43fbhhzw-gf-3.11.0-with-rgl"
+      ],
+      "url": "git+file:///Users/anka/cclaw/nix-stuff?ref=nix-flakes&rev=6743e9a678d15a9c068965d8ef74e10e5d0f6564"
+    },
+    {
+      "active": true,
+      "attrPath": "packages.x86_64-darwin.gf-rgl",
+      "originalUrl": "git+file:///Users/anka/cclaw/nix-stuff",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/mfcpkmcwpc35rkql2ylwpp4bijxd5jar-gf-rgl"
+      ],
+      "url": "git+file:///Users/anka/cclaw/nix-stuff?ref=nix-flakes&rev=6743e9a678d15a9c068965d8ef74e10e5d0f6564"
+    },
+    {
+      "active": true,
+      "attrPath": "packages.x86_64-darwin.gf-wordnet",
+      "originalUrl": "git+file:///Users/anka/cclaw/nix-stuff",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/40w27jdrwqyzqwq53gkz82mfgbdpx3l2-gf-wordnet"
+      ],
+      "url": "git+file:///Users/anka/cclaw/nix-stuff?ref=nix-flakes&rev=6743e9a678d15a9c068965d8ef74e10e5d0f6564"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.stylish-haskell",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ndas02ab62gqsr5j2k67l5s4n459zh9n-stylish-haskell-0.14.3.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.bashplotlib",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ldl45177hc9agb9zyw65lr1a59zvy7ha-bashplotlib-2021-03-31"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.gnuplot",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/39a7vdz7vs0q0wa7iafwh1j72yzp7mj7-gnuplot-5.4.4"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.ipfs",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/qma2xy6cvazhw7035y2d3jac9w20dqg9-kubo-0.16.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.csvkit",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/axf4bnm2xja7p1vp1gyzapzp4lycqdl9-csvkit-1.0.5"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "packages.x86_64-darwin.binwalk-full",
+      "originalUrl": "git+file:///Users/anka/dotfiles?dir=local-packages",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/905jjzfjrsq9z7bfzginb4kbdwsf34ln-python3.10-binwalk-full-2.3.3"
+      ],
+      "url": "git+file:///Users/anka/dotfiles?dir=local-packages&ref=main&rev=88de1149358b72e224a87af8522e234aa729f85e"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.moreutils",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/pa680h9vhgfy381mjaz45r2a80wcrbyh-moreutils-0.67"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "packages.x86_64-darwin.gf-with-rgl",
+      "originalUrl": "git+file:///Users/anka/cclaw/nix-stuff",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/5cvg6m0v34mmhwv2il74fsqs43fbhhzw-gf-3.11.0-with-rgl"
+      ],
+      "url": "git+file:///Users/anka/cclaw/nix-stuff?ref=nix-flakes&rev=6743e9a678d15a9c068965d8ef74e10e5d0f6564"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.spacevim",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/zr55ry80hy4fxwq3nfbpxf10gnkkpf10-spacevim-1.8.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.exercism",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/cn6z31nhhapq8c2h1hd3nsbpw0wkans3-exercism-3.1.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.stack",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/jb4ymnsf9m1d2wsi4nvz2llgw02c6jd3-stack-2.9.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.shellcheck",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/fgagsvgfyfzjxi92zx2bhq2vg5y7yghz-shellcheck-0.8.0-bin"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nodejs",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/z0vkknp9xp03mrmd5zd5j509s697m12b-nodejs-18.9.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.socat",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/qyzyblqjhkzns8hvm7vm7l7m6qx9v2xj-socat-1.7.4.3"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.fuse",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/i5ka30p567m3jn2j1k8xfyxmv2bbgdxs-macfuse-stubs-4.1.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.fuse",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/i5ka30p567m3jn2j1k8xfyxmv2bbgdxs-macfuse-stubs-4.1.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.go",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/irs87wh3gghc69fri89lp3pz3f518a70-go-1.18.6"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.unison-ucm",
+      "originalUrl": "git+file:///Users/anka/projekt/not-mine/nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/pmq0lkxqncyw9pw7x2kq1pl3sqxwa49a-unison-code-manager-1.0.M4c-alpha"
+      ],
+      "url": "git+file:///Users/anka/projekt/not-mine/nixpkgs?ref=unison-m4-to-m4c&rev=84ba7cdb7fa844c148681e31ffc041e89aea9be7"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.miniupnpc",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/gn6kj3q3wd7j9hchsj8kkjbd8jkhqig1-miniupnpc-1.9.20160209"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.difftastic",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/gn74szn6q6l37cqlcqga2w6pg9giicyl-difftastic-0.36.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.lf",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/hjknsgsgpy2kkzwp1pwkvxv7a4kbr7gb-lf-27"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.comma",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/f1a366xkdjzn7vpmgr4j001njjajb7cf-comma-1.3.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.hpack",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/9z7p715wgicd69ylzi6l4x4pwk6bnnzg-hpack-0.34.7"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.git",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/1n15qd2k23cj3c52w0p5lgrbqdp1i2yj-git-2.37.3"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.hub",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/9iwcdci18v63gpgrl35bdgx1bna8wwmh-hub-unstable-2022-04-04"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.pdftk",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/x102g2r668jdmnzzz2xipia7k3pzsk9v-pdftk-3.3.3"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.dpkg",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ibr6qnfjbqxv9c5q1ld4mhakgfswbbgw-dpkg-1.21.1ubuntu2.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.yarn",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/lipc1k9d6a77hymc48dg18fw83z7mljr-yarn-1.22.19"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.graphviz",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/k9rrh9qzzz9a837alnr2ckqjv37qypg3-graphviz-5.0.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.dos2unix",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/rz2kn17kyyzx45aadw71h69h5xvvfl2l-dos2unix-7.4.3"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.act",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/cf72xnqhxxd0nzp3drmah6rgy0qvw9mq-act-0.2.32"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nix-bundle",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/1r9y0c6kfayv18x07y6y55fp9vhsd3zf-nix-bundle-0.4.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.koka",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/9dgmsdwz5a3qwb85ax83hszrx81b9ajm-koka-2.4.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nvd",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/an8rgsp3vfw5x83bj0jz0gylp2rk4lz2-nvd-0.1.2"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.entr",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/pnqbkasrqxkqgwpf89z7ijy4pr2144gy-entr-5.2"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.autojump",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/xcbij1w96624p8gjwzvhmh739lm4pkb6-autojump-22.5.3"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.h",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/qk1733dcs73dwanynpilxwckq2fz70b4-h-1.0.3"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.catt",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/45hhdj8dc1s2nnwmgkk6633drsjzvy4j-catt-0.12.7"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.streamlink",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/5ka1432w7cv7qmgsxdybdraqn566pc4z-streamlink-5.0.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.gh",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/0y7k5dn5jxabs51z227c8lxjmk5j2ri3-gh-2.17.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.imagemagick",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/6ysfq11lrjh54l8a3ld3iwpv09rx3sgx-imagemagick-7.1.0-49"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.rmview",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/bh33xifd9509kwb1wywkhgfzdvhgfkmv-rmview-3.1.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.ix",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/yvn5r0rynyhgb0pxpligbq18kc69lb9q-ix-20190815"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.coreutils",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/3kgda228qy9najl6z7j825b991f1x30y-coreutils-9.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.wget",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/57g6nblm1rli8fialhbl828m8k82w87l-wget-1.21.3"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.cachix",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/lc1i7bvi7gh574iwp94ldavhcxq6x6wa-cachix-1.0.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.pijul",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/djqj9zhsmbsddmsk3pwfqvncnv8bgia7-pijul-1.0.0-beta.2"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.imgcat",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/5dkqrfwmpxmpzg7wpzv8f7p5qsnqk2ih-imgcat-2.5.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nix-direnv",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/bq91xb4s9ikv9vxc81ss23k57lylmv58-nix-direnv-2.1.2"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.gist",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/554zs3311qncfxapr9982az7z0zzl7gs-gist-6.0.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.hicolor-icon-theme",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/1zhcmy0b8jppqb9d3v4acx98qi1h4v5i-hicolor-icon-theme-0.17"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.oh-my-zsh",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/xvh4i3bxfvj2x10gi0ywq3y4gdmiy40c-oh-my-zsh-2022-10-12"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.du-dust",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/b0l0k9dp1x99a7m5vkh24dzmip1n346q-du-dust-0.8.3"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.darcs",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/j9zbfiy0yr8d92whs0c5iid52pbvy6np-darcs-2.16.5"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.kitty",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/yb1svhmwscvcgd2bsc86jgpwmlml6c1i-kitty-0.26.2"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.gnupg",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/fh1cnf6k4zrifhma509f6jlnyxd58n90-gnupg-2.3.7"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.exa",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ny72yrkyad5vipic4n5rhkcnka62lszi-exa-0.10.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.fd",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/2q37iaahk56cchj7i821nv9b9c4y5pz5-fd-8.4.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.procs",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/s8j7ndpgwqfp05rvrvkpr7f1jnw8qc2w-procs-0.13.2"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.sd",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/fjna0gwdnp26wrvqybdzz8bg0pqzrr96-sd-0.7.6"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.starship",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/c531j729npjxshcr4dx8fdlzy2aa5rwj-starship-1.10.3"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.ripgrep",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/w6mhbpyd953kngh6dlg7m7pmnw6rba3g-ripgrep-13.0.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.tokei",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/y970cf4zj9a6xv13x2cak6fl8x306h09-tokei-12.1.2"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.hyperfine",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/da0sx9mki1sv2vxz76i4dzbm98l02s8x-hyperfine-1.15.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.tealdeer",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/b7mggv5awng8gn9rh1vykm2fk0fk53i8-tealdeer-1.6.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.bandwhich",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/553mic5z9707g4w046llp5qwq87hxac0-bandwhich-0.20.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.zoxide",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/mqixaj8ww1sk5cmfc7zdvjk64d5j23hf-zoxide-0.8.3"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nushell",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/2m64p039hnj2ab6p3z16sfqqhk0x7pmy-nushell-0.68.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.bat",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/5i1143k81rzwqcim2xyfbz8swbkm23pc-bat-0.22.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.rlwrap",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/g4xa0zhckmckwa7pnpnjyshc13lxj01h-rlwrap-0.45.2"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.procps",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/kbg6v4h9d7r6gaiwb99fc3fqlzsqi09x-procps-1003.1-2008"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.ninja",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/lpbd4sw1v6z8fjn72xqa9j5djyghghz6-ninja-1.11.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.rnix-lsp",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/3q0siwqfvmgcddinv1h3hgk09lnqdrjf-rnix-lsp-0.2.5"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nixpkgs-fmt",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/3vk57nxjwxlcdjzld2lwxwa9bwhslbjm-nixpkgs-fmt-1.3.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.dhall",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/qmshcnvpya7i79inkrwyf608wj1mrv3h-dhall-1.40.2"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.dhall-nix",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ql2jskm9k45rllad0arbv1h9dnn1ila0-dhall-nix-1.1.23"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.dhall-lsp-server",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/cn3xs7zai357kd08i2npmlrhin2kkqw8-dhall-lsp-server-1.1.2"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.kak-lsp",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/80g9s10sh6swy9zjvs4g6l50h377jphy-kak-lsp-14.0.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.wordnet",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/6syx7ghxl4j1nlls1nczpbfvf8g6rvvf-wordnet-3.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nixpkgs-review",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/jrklqzz8k3bacjp5gxx1jwfzmf9mbsgx-nixpkgs-review-2.7.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.thefuck",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/1apdg7dd3m9p6928bb99b1gd5inirq3z-thefuck-3.32"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.kakoune",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/gzs772q1214dljqq5608x9xhw8si4c8s-kakoune-2021.11.08"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.tmux",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ziwss5r5s2m6w3kb31g06aq3zkghrisx-tmux-3.3a"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.fswatch",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/r9rkh9hw3faqw7sx4yphk60hsxfz3l9g-fswatch-1.17.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.hlint",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ywh6b477688cirykshgwk1ds5zdk3wjh-hlint-3.3.6"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.ormolu",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ifmggw36fg3k1hh1h8abxckw39bh5fcf-ormolu-0.3.1.0-bin"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.niv",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/hiwjkrb2k7kpjrg1wrrdk0rznnp13jgx-niv-0.2.21-bin"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nix-index",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/2mcqx1a4n3a0ww2yn6rxlg8i0lnsmzhw-nix-index-unstable-2022-03-07"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.aria2",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/qrvrkwykp984ipj13nljixj8f9g0sz99-aria2-1.36.0-bin"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.jing-trang",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/iz22i8m19lz5xxjbja5hpz4vpmi62zm0-jing-trang-20181222"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.z3",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/fszhmvnm59gk2xwqzq4cf7xnls1qz8cd-z3-4.8.15"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.direnv",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/wz5wpg46ia96ackwvg302ijdygw5xjlr-direnv-2.32.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.silver-searcher",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/25qq4bgzk9fg7lhyfrjqrlw8lqrf0qfw-silver-searcher-2.2.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nixfmt",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/h4ksqmpa9msydfwzwjixd7nqjln1nb3n-nixfmt-0.5.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.neovim",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/h5pc2ffyvacsg4qhw66gkgpjln24jhvr-neovim-0.8.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.ghcid",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/99fkmcrcyb6xfzrc261lxq8fzbzbh416-ghcid-0.8.7-bin"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.sc-im",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/6z4fmlv0q7gvpsp060sdsdacgxs9i887-sc-im-0.8.2"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.idris2",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/d88f6aj38bnh3ddw8g5jh2zsx7v7li1n-idris2-0.5.1"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.command-not-found-fish",
+      "originalUrl": "git+file:///Users/anka/dotfiles?dir=local-packages",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/l4achf329dzz9yiw4lxz5k1hjpdcas50-cnf_fish.sh"
+      ],
+      "url": "git+file:///Users/anka/dotfiles?dir=local-packages&ref=main&rev=88de1149358b72e224a87af8522e234aa729f85e"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.babelfish",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ipcrdp97nif5nszd5j3y7m77pwh3rw3g-babelfish-1.1.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "defaultPackage.x86_64-darwin",
+      "originalUrl": "github:BrianHicks/tree-grepper",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/hbml3r10j6xk9dpl6qa8z40zw0b9xmlc-tree-grepper-2.5.0-pre"
+      ],
+      "url": "github:BrianHicks/tree-grepper/0cb33fb1d1a9bac354d7e3e6c3a8cdddfa1d5f58"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.unixtools.script",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/agfvqf0g32mwvr8h0zliwrbf2h0l9kw6-script-shell_cmds-187"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.clac",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/phy1wy0wrvc513f2fhz4j2m17iivh1fj-clac-0.3.3"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nmap",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/s3q30a0988p92lb6m62cdvn0jgnm1gsp-nmap-7.93"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.python3Packages.mcstatus",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/69gyjlaxpaknwrpch3alvvdyll9qw5gg-python3.10-mcstatus-9.3.0"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.redis",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/vvljqph9yj12vz78j5xns1183nmh52ca-redis-7.0.5"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "packages.x86_64-darwin.rEnv",
+      "originalUrl": "git+file:///Users/anka/svalna/ci-analysis-module",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/2mwx9cy530fhlr8lm00wf0z80s64bjn3-R-4.2.1-wrapper"
+      ],
+      "url": "git+file:///Users/anka/svalna/ci-analysis-module"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.stockfish",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/2039zrd64lzkf6r9nn9dmrpmwj6cp0qw-stockfish-15"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.duti",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/mdplw45k7c59ggsnlyc92zzwrjrnrnqb-duti-1.5.5pre"
+      ],
+      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.subedit",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/5b6lbwgrc2g3habignx7b2s63h3n6kb0-subedit-1.2.2"
+      ],
+      "url": "github:NixOS/nixpkgs/126f49a01de5b7e35a43fd43f891ecf6d3a51459"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.mpv",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/mafkiqlfpddqhjkggk7ny6hb6lk40q8z-mpv-with-scripts-0.35.1"
+      ],
+      "url": "github:NixOS/nixpkgs/126f49a01de5b7e35a43fd43f891ecf6d3a51459"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.qbittorrent",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/x4viaga88w47bps693y23rxjlg10siym-qbittorrent-4.5.2"
+      ],
+      "url": "github:NixOS/nixpkgs/126f49a01de5b7e35a43fd43f891ecf6d3a51459"
+    },
+    {
+      "active": true,
+      "attrPath": "packages.x86_64-darwin.tex",
+      "originalUrl": "git+file:///Users/anka/projekt/gf-ud-exjobb",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/yibmi7ya0mn9pj0c898lka8cvkybrvx0-texlive-combined-2021"
+      ],
+      "url": "git+file:///Users/anka/projekt/gf-ud-exjobb"
+    },
+    {
+      "active": true,
+      "attrPath": "packages.x86_64-darwin.pygments",
+      "originalUrl": "git+file:///Users/anka/projekt/gf-ud-exjobb",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/8ns0r1p1ra9k40aya403nclbwmzcgi61-python3.8-pygments-2.13.0"
+      ],
+      "url": "git+file:///Users/anka/projekt/gf-ud-exjobb"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.ghidra-bin",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/iqg5kly9jipzkk8l8zf6lqp38gzvqv67-ghidra-10.2.2"
+      ],
+      "url": "github:NixOS/nixpkgs/126f49a01de5b7e35a43fd43f891ecf6d3a51459"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.gdb",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/hzsp5m0d8mb5lvc5gjrdsqgbkk1ddrvw-gdb-12.1"
+      ],
+      "url": "github:NixOS/nixpkgs/126f49a01de5b7e35a43fd43f891ecf6d3a51459"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.pandoc",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/lwmdz9fqpmb2lz56x6lfpdhwzf652ssm-pandoc-2.19.2"
+      ],
+      "url": "github:NixOS/nixpkgs/126f49a01de5b7e35a43fd43f891ecf6d3a51459"
+    },
+    {
+      "active": true,
+      "attrPath": "packages.x86_64-darwin.hix",
+      "originalUrl": "github:input-output-hk/haskell.nix",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/q7k6sxfyrkzvaf3ryrj4s6zksiz228j7-hix"
+      ],
+      "url": "github:input-output-hk/haskell.nix/deeec55d699fc848aaa9e9e8095e114d46e79b76"
+    }
+  ],
+  "version": 2
+}
