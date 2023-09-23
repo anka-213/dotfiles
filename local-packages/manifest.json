@@ -526,17 +526,6 @@
     },
     {
       "active": true,
-      "attrPath": "legacyPackages.x86_64-darwin.dpkg",
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "priority": 5,
-      "storePaths": [
-        "/nix/store/xpc9v7x5yzm564rkriqywa6w7jw0jakq-dpkg-1.21.22"
-      ],
-      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
-    },
-    {
-      "active": true,
       "attrPath": "legacyPackages.x86_64-darwin.yarn",
       "originalUrl": "flake:nixpkgs",
       "outputs": null,
