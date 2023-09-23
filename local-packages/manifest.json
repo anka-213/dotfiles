@@ -11,13 +11,6 @@
       "active": true,
       "priority": 5,
       "storePaths": [
-        "/nix/store/013wj5plqxpw84dwhswaqpzqsamalq3k-ghc-8.10.7"
-      ]
-    },
-    {
-      "active": true,
-      "priority": 5,
-      "storePaths": [
         "/nix/store/likakb83wjd9r6m4xgxisnq1w2wb44y0-agdaWithPackages-2.6.2"
       ]
     },
@@ -82,13 +75,6 @@
       "priority": 5,
       "storePaths": [
         "/nix/store/crzf7p2byvzc4ysyn6n432v0ywgicd4p-mcrl2-202006"
-      ]
-    },
-    {
-      "active": true,
-      "priority": 5,
-      "storePaths": [
-        "/nix/store/q4l640lk7n5imrizbwp39q9mb4pm1zx9-cabal-install-3.4.0.0"
       ]
     },
     {
