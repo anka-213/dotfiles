@@ -1593,6 +1593,17 @@
         "/nix/store/j5gj58y0bdb0k4ql6bga1gd3cvahf8a2-nix-closure-graph-2022-10-05"
       ],
       "url": "path:/Users/anka/dotfiles/local-packages?lastModified=1694406022&narHash=sha256-vGOdtZDDsqPeURU99ExsFCcqMLDSFDzwMBIGs%2f2uzWw="
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nix-tree",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/i0lnxs0z1zwdhwzwrnp4zapw56bllicf-nix-tree-0.3.1"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
