@@ -1615,6 +1615,17 @@
         "/nix/store/nrshmdfjbnqg15dn0xg10703qkg19xsb-nix-du-1.0.0"
       ],
       "url": "github:NixOS/nixpkgs/8699d2cf1ae821915739427adac3981b61a88097"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.zgrviewer",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/72r3jji555cd35v6sjqqlkblbj4ibc6k-zgrviewer-0.9.0"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
