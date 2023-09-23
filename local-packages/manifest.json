@@ -11,13 +11,6 @@
       "active": true,
       "priority": 5,
       "storePaths": [
-        "/nix/store/likakb83wjd9r6m4xgxisnq1w2wb44y0-agdaWithPackages-2.6.2"
-      ]
-    },
-    {
-      "active": true,
-      "priority": 5,
-      "storePaths": [
         "/nix/store/38a642qlyjdds8803lf7pxp4m5m66b4a-pinentry-1.2.0"
       ]
     },
