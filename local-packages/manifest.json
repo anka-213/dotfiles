@@ -130,13 +130,6 @@
       "active": true,
       "priority": 5,
       "storePaths": [
-        "/nix/store/nn26gwxlwn8d72baaxda4adw5kvdvs4m-ytop-0.6.2"
-      ]
-    },
-    {
-      "active": true,
-      "priority": 5,
-      "storePaths": [
         "/nix/store/ikkm9x2k0ij59yz8v3ld1gif3ays1x7w-threadscope-0.2.13"
       ]
     },
