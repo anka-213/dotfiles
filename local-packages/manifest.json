@@ -1578,6 +1578,17 @@
         "/nix/store/94vnmpcmm69y6fgbfpvj8vkxw6ahf0hc-bottom-0.9.4"
       ],
       "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.bottom",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/94vnmpcmm69y6fgbfpvj8vkxw6ahf0hc-bottom-0.9.4"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
