@@ -1026,9 +1026,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/2m64p039hnj2ab6p3z16sfqqhk0x7pmy-nushell-0.68.1"
+        "/nix/store/p2nirvqz73z3g9p77p9pjf0j43p56gy3-nushell-0.83.1"
       ],
-      "url": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641"
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     },
     {
       "active": true,
