@@ -1604,6 +1604,17 @@
         "/nix/store/i0lnxs0z1zwdhwzwrnp4zapw56bllicf-nix-tree-0.3.1"
       ],
       "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nix-du",
+      "originalUrl": "github:NixOS/nixpkgs/8699d2cf1ae821915739427adac3981b61a88097",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/nrshmdfjbnqg15dn0xg10703qkg19xsb-nix-du-1.0.0"
+      ],
+      "url": "github:NixOS/nixpkgs/8699d2cf1ae821915739427adac3981b61a88097"
     }
   ],
   "version": 2
