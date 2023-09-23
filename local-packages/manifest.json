@@ -165,13 +165,6 @@
       "active": true,
       "priority": 5,
       "storePaths": [
-        "/nix/store/djkn0y0msn9jx78h740sdk4psgs304n9-password-store-1.7.3"
-      ]
-    },
-    {
-      "active": true,
-      "priority": 5,
-      "storePaths": [
         "/nix/store/8f6kzzc2yakfxzx75kn7w8slv3g9p4sr-awscli2-2.0.26"
       ]
     },
