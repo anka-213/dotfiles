@@ -13,7 +13,9 @@
   # )
   (self: super:
     let
-      # Pin all-hies
+      # Extract the bin directory to avoid conflict between haskellPackages
+      # This still depends on lib, but has the advantage of not needing to
+      # recompile the package
       onlyBin = pkg:
         super.buildEnv {
           name = "${pkg.name}";
@@ -26,7 +28,8 @@
         # insert the correct hash after the first evaluation
         sha256 = "1gxaxbkb98xl4mlxs9i8sykcgyvjw2zv3l9whzvzvxwwhwj2jn0k";
       };
-    in {
+    in
+    {
       gf = onlyBin (import gf-core { nixpkgs = super; });
       # agdaPackages = super.agdaPackages.override {
       #   Agda = self.haskellStatic.Agda;
@@ -43,7 +46,8 @@
           paths = [ pkg ];
           pathsToLink = [ "/bin" "/share" ];
         };
-    in let
+    in
+    let
       haskellOverrides = pkgs:
         with pkgs.haskellLib; {
           overrides = hself: hsuper: {
@@ -70,10 +74,11 @@
             # nix-shell -p "haskellPackages.ghcWithPackages (pkg: with pkg;[ (haskell.lib.doJailbreak fadno-xml) ])"
           };
         };
-    in {
+    in
+    {
       binwalk-full = with self.python3Packages;
         toPythonApplication
-        (binwalk-full.overridePythonAttrs { doCheck = false; });
+          (binwalk-full.overridePythonAttrs { doCheck = false; });
       duet = super.haskell.lib.justStaticExecutables self.haskellPackages.duet;
       qutebrowser = self.libsForQt5.callPackage (./qutebrowser) { };
       agda-bin =
@@ -94,7 +99,7 @@
       # Only the binaries, not the libraries
       haskellStatic =
         builtins.mapAttrs (k: v: super.haskell.lib.justStaticExecutables v)
-        self.haskellPackages;
+          self.haskellPackages;
       # retrie = super.haskell.lib.generateOptparseApplicativeCompletions ["retrie"] self.haskellPackages.retrie.bin;
     })
   # (self: super: {
@@ -105,31 +110,48 @@
       milestone_id = "M4b";
       version = "1.0.${milestone_id}-alpha";
 
-      src = if (self.stdenv.isDarwin) then
-        self.fetchurl {
-          url =
-            "https://github.com/unisonweb/unison/releases/download/release/${milestone_id}/ucm-macos.tar.gz";
-          sha256 = "sha256-UjN1LDknPwAs1ci4HjflymlXBbm8D9d3lPAnoXPnWdY=";
-        }
-      else
-        self.fetchurl {
-          url =
-            "https://github.com/unisonweb/unison/releases/download/release/${milestone_id}/ucm-linux.tar.gz";
-          sha256 = "sha256-9XDVOpYhduhBtFqnMNtRPElsp88tKK3JmIGXORiTFFU=";
-        };
+      src =
+        if (self.stdenv.isDarwin) then
+          self.fetchurl
+            {
+              url =
+                "https://github.com/unisonweb/unison/releases/download/release/${milestone_id}/ucm-macos.tar.gz";
+              sha256 = "sha256-UjN1LDknPwAs1ci4HjflymlXBbm8D9d3lPAnoXPnWdY=";
+            }
+        else
+          self.fetchurl {
+            url =
+              "https://github.com/unisonweb/unison/releases/download/release/${milestone_id}/ucm-linux.tar.gz";
+            sha256 = "sha256-9XDVOpYhduhBtFqnMNtRPElsp88tKK3JmIGXORiTFFU=";
+          };
 
     });
   })
   (self: super: {
-    go-fuse-version = self.callPackage ./go-fuse-version.nix {} ;
+    go-fuse-version = self.callPackage ./go-fuse-version.nix { };
   })
   (self: super: {
-    nix-closure-graph = self.callPackage ./nix-closure-graph.nix {};
+    nix-closure-graph = self.callPackage ./nix-closure-graph.nix { };
+  })
+  (self: super: {
+    # Haskell 'go to (non-local)* definitions' VS Code extension
+    haskell-gtd-nl =
+      let inherit (self.haskellPackages) callCabal2nix lib;
+      in lib.only callCabal2nix "haskell-gtd-nl"
+        (
+          self.fetchFromGitHub {
+            owner = "kr3v";
+            repo = "haskell-gtd-nl";
+            rev = "8a6fd1bc48fd77fac055ddcf5ada76f5406710d0";
+            sha256 = "sha256-xowrqyQb3ojockQHlqQyHGyz31IukZa4K4oNxd9I0Ww=";
+          }
+        )
+        { };
   })
   (self: super: {
     command-not-found-fish = self.writeShellScriptBin "cnf_fish.sh" ''
       source ${self.nix-index}/etc/profile.d/command-not-found.sh
       command_not_found_handle $@
-    '' ;
+    '';
   })
 ]
