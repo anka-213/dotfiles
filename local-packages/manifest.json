@@ -1814,6 +1814,17 @@
         "/nix/store/zsaryxs3bk20sv3r5zxqvbpw9dh4r7aw-texlive-combined-2023"
       ],
       "url": "git+file:///Users/anka/projekt/gf-ud-exjobb"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.git-latexdiff",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/hk1v95c5aas6k12h43vafq8llg7xw516-git-latexdiff-1.6.0"
+      ],
+      "url": "github:NixOS/nixpkgs/2b1f64b358f2cab62617f26b3870fd0ee375d848"
     }
   ],
   "version": 2
