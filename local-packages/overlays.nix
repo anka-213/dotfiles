@@ -11,6 +11,11 @@
   #   in
   #   (import all-hies {}).overlay
   # )
+
+  # (self: super: {
+  #   nix-index = super.nix-index.override {};
+  # })
+
   (self: super:
     let
       # Extract the bin directory to avoid conflict between haskellPackages
@@ -133,20 +138,28 @@
   (self: super: {
     nix-closure-graph = self.callPackage ./nix-closure-graph.nix { };
   })
+  # (self: super: {
+  #   gdb-codesigned = gdb;
+  # })
   (self: super: {
     # Haskell 'go to (non-local)* definitions' VS Code extension
     haskell-gtd-nl =
-      let inherit (self.haskellPackages) callCabal2nix lib;
-      in lib.only callCabal2nix "haskell-gtd-nl"
+      let inherit (self.haskellPackages) callCabal2nix;
+        inherit (self.haskell.lib) justStaticExecutables doJailbreak dontCheck;
+        don'tJailbreak = x: x;
+      in
+      justStaticExecutables (dontCheck (doJailbreak (callCabal2nix "haskell-gtd-nl"
         (
           self.fetchFromGitHub {
             owner = "kr3v";
             repo = "haskell-gtd-nl";
-            rev = "8a6fd1bc48fd77fac055ddcf5ada76f5406710d0";
-            sha256 = "sha256-xowrqyQb3ojockQHlqQyHGyz31IukZa4K4oNxd9I0Ww=";
+            rev = "d5650e4ba3f85b430ea8339d75284dc812c28226";
+            sha256 = "sha256-hWT7nFcjR3pfb7I/auxdl+3Gi5xk++nBW40ipo1eHOw=";
           }
         )
-        { };
+        {
+          ghc-lib-parser = self.haskellPackages.ghc-lib-parser_9_6_2_20230523;
+        })));
   })
   (self: super: {
     command-not-found-fish = self.writeShellScriptBin "cnf_fish.sh" ''
