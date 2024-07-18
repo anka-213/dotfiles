@@ -1814,6 +1814,17 @@
         "/nix/store/ir42w44rg7bqi3qhfkn91vpjahyfa3wd-nix-du-1.2.0"
       ],
       "url": "github:NixOS/nixpkgs/2b1f64b358f2cab62617f26b3870fd0ee375d848"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nix-diff",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/7aji493x3f76r8fwl0nha9p96n65a670-nix-diff-1.0.20"
+      ],
+      "url": "github:NixOS/nixpkgs/2b1f64b358f2cab62617f26b3870fd0ee375d848"
     }
   ],
   "version": 2
