@@ -1769,6 +1769,17 @@
         "/nix/store/vjnybbk38dsqjrp5c547pks0l6f71jkp-cabal-fmt-0.1.7-bin"
       ],
       "url": "path:/Users/anka/dotfiles/local-packages?lastModified=1709291338&narHash=sha256-IpN811jRW1MMN0bxkpQKPcfa8UlPNzD7OqPR3cyMotY="
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.haskellBin.ghc-gc-tune",
+      "originalUrl": "flake:local",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/zbdk28ldw91a4fhsqxxrsa22g7n5cxxq-ghc-gc-tune-0.3.2"
+      ],
+      "url": "path:/Users/anka/dotfiles/local-packages?lastModified=1709291338&narHash=sha256-IpN811jRW1MMN0bxkpQKPcfa8UlPNzD7OqPR3cyMotY="
     }
   ],
   "version": 2
