@@ -1792,6 +1792,17 @@
         "/nix/store/3rrby0kwyq8fldhm1kd3qafa8cplazbq-radare2-5.8.8"
       ],
       "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nodePackages.pnpm",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/9apybmhqbw27gfcx0arhpy6wd89kmixh-pnpm-8.6.12"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
