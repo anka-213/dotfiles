@@ -1508,17 +1508,6 @@
     },
     {
       "active": true,
-      "attrPath": "legacyPackages.x86_64-darwin.lldb_9",
-      "originalUrl": "flake:nixpkgs",
-      "outputs": null,
-      "priority": 5,
-      "storePaths": [
-        "/nix/store/l2yx46bc87a48jaspbqyhqs1pfx6vfyj-lldb-9.0.1"
-      ],
-      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
-    },
-    {
-      "active": true,
       "attrPath": "legacyPackages.x86_64-darwin.dhall-lsp-server",
       "originalUrl": "github:NixOS/nixpkgs/31d567846255e122846548255101980162bbf641",
       "outputs": null,
