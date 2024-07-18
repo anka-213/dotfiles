@@ -1803,6 +1803,17 @@
         "/nix/store/jcx8fgmfs7mlm21cvk2ph1af87c9z866-texlive-combined-2023"
       ],
       "url": "git+file:///Users/anka/projekt/gf-ud-exjobb"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.nix-du",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ir42w44rg7bqi3qhfkn91vpjahyfa3wd-nix-du-1.2.0"
+      ],
+      "url": "github:NixOS/nixpkgs/2b1f64b358f2cab62617f26b3870fd0ee375d848"
     }
   ],
   "version": 2
