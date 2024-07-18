@@ -1725,6 +1725,17 @@
         "/nix/store/67735g70592pmkg9axf14d3x784w26px-msitools-0.102"
       ],
       "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.riff",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/lj49bb3gfxw8wyg6wx8r0q3yvz5rl6wz-riff-1.0.3"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
