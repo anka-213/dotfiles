@@ -1803,6 +1803,17 @@
         "/nix/store/hg921s0x2cmpbpn6xlljgdy91hwm9byn-pnpm-8.15.5"
       ],
       "url": "github:NixOS/nixpkgs/2b1f64b358f2cab62617f26b3870fd0ee375d848"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.ast-grep",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ja92szw49wy2kf3q11jn3ggxb3qrv4yl-ast-grep-0.21.0"
+      ],
+      "url": "github:NixOS/nixpkgs/2b1f64b358f2cab62617f26b3870fd0ee375d848"
     }
   ],
   "version": 2
