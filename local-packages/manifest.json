@@ -221,9 +221,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/69pibm09c6780h182j0r76n5k6k2kh9x-gf-3.11.0-with-rgl"
+        "/nix/store/01y9k9svyvpzg86l99wm08pnvy86jg9v-gf-3.11.0-with-rgl"
       ],
-      "url": "git+file:///Users/anka/cclaw/nix-stuff?ref=refs%2fheads%2fnix-flakes&rev=0ca4f925e5aa71cad7a96eb82499d523fb23e949"
+      "url": "git+file:///Users/anka/cclaw/nix-stuff?ref=refs%2fheads%2fnix-flakes&rev=bb591a7d0b6e81f5ae053d2e99a0f8dd9fb5d2a9"
     },
     {
       "active": true,
@@ -232,9 +232,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/jisjv5j2wi267q0bjph2ad5z00bm9q43-gf-rgl"
+        "/nix/store/9bbvnkpfr2xbmpy316xirwf2adymw97q-gf-rgl"
       ],
-      "url": "git+file:///Users/anka/cclaw/nix-stuff?ref=refs%2fheads%2fnix-flakes&rev=0ca4f925e5aa71cad7a96eb82499d523fb23e949"
+      "url": "git+file:///Users/anka/cclaw/nix-stuff?ref=refs%2fheads%2fnix-flakes&rev=bb591a7d0b6e81f5ae053d2e99a0f8dd9fb5d2a9"
     },
     {
       "active": true,
@@ -243,9 +243,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/6v5wm3zmwr5fb296lf9r8884nvihyh1m-gf-wordnet"
+        "/nix/store/nh7a8zvci7c7vsk1ibp533xlazd86jf0-gf-wordnet"
       ],
-      "url": "git+file:///Users/anka/cclaw/nix-stuff?ref=refs%2fheads%2fnix-flakes&rev=0ca4f925e5aa71cad7a96eb82499d523fb23e949"
+      "url": "git+file:///Users/anka/cclaw/nix-stuff?ref=refs%2fheads%2fnix-flakes&rev=bb591a7d0b6e81f5ae053d2e99a0f8dd9fb5d2a9"
     },
     {
       "active": true,
