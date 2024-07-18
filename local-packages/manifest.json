@@ -1811,7 +1811,7 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/grc2rmzhpjdxwhhnd1912lz41bcqa93b-texlive-combined-2023"
+        "/nix/store/1q7w9fvwkb6d7g5p5fikq6v7vrmy1r79-texlive-combined-2023"
       ],
       "url": "git+file:///Users/anka/projekt/gf-ud-exjobb"
     }
