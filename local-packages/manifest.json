@@ -1681,6 +1681,17 @@
         "/nix/store/zv58rpw5xdylm39wa0pxnva26j5fmldd-evcxr-0.15.1"
       ],
       "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.transmission",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/ljiwbkhs6fh3vcmvd3hgg0d7clv5683p-transmission-3.00"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
