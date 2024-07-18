@@ -1670,6 +1670,17 @@
         "/nix/store/5jd27wj9wrbz4264kvkdb85j72ka3cf3-carapace-0.26.0"
       ],
       "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.evcxr",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/zv58rpw5xdylm39wa0pxnva26j5fmldd-evcxr-0.15.1"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
