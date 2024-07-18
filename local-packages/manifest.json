@@ -1780,6 +1780,18 @@
         "/nix/store/zbdk28ldw91a4fhsqxxrsa22g7n5cxxq-ghc-gc-tune-0.3.2"
       ],
       "url": "path:/Users/anka/dotfiles/local-packages?lastModified=1709291338&narHash=sha256-IpN811jRW1MMN0bxkpQKPcfa8UlPNzD7OqPR3cyMotY="
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.gawk",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/7qlbphnn84fynr6bfrl62b3dd7j2yq3x-gawk-5.2.2",
+        "/nix/store/ld6x6zv6j9z7wj1yl5azbman70whbg80-gawk-5.2.2-man"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
