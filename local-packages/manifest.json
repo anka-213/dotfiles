@@ -1758,6 +1758,17 @@
         "/nix/store/1ndqfagjfyp8j3ahsnxdm7l8g717cfxs-devbox-0.5.11"
       ],
       "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.haskellStatic.cabal-fmt",
+      "originalUrl": "flake:local",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/vjnybbk38dsqjrp5c547pks0l6f71jkp-cabal-fmt-0.1.7-bin"
+      ],
+      "url": "path:/Users/anka/dotfiles/local-packages?lastModified=1709291338&narHash=sha256-IpN811jRW1MMN0bxkpQKPcfa8UlPNzD7OqPR3cyMotY="
     }
   ],
   "version": 2
