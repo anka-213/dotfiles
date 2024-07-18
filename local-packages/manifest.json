@@ -1800,9 +1800,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/9apybmhqbw27gfcx0arhpy6wd89kmixh-pnpm-8.6.12"
+        "/nix/store/hg921s0x2cmpbpn6xlljgdy91hwm9byn-pnpm-8.15.5"
       ],
-      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+      "url": "github:NixOS/nixpkgs/2b1f64b358f2cab62617f26b3870fd0ee375d848"
     }
   ],
   "version": 2
