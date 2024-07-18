@@ -1442,17 +1442,6 @@
     },
     {
       "active": true,
-      "attrPath": "packages.x86_64-darwin.tex",
-      "originalUrl": "git+file:///Users/anka/projekt/gf-ud-exjobb",
-      "outputs": null,
-      "priority": 5,
-      "storePaths": [
-        "/nix/store/75b5qcff7xqdcf4v3jdsyxa3rpflv826-texlive-combined-2021"
-      ],
-      "url": "git+file:///Users/anka/projekt/gf-ud-exjobb"
-    },
-    {
-      "active": true,
       "attrPath": "packages.x86_64-darwin.pygments",
       "originalUrl": "git+file:///Users/anka/projekt/gf-ud-exjobb",
       "outputs": null,
