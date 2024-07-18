@@ -287,9 +287,9 @@
       "outputs": null,
       "priority": 5,
       "storePaths": [
-        "/nix/store/dmdv0zv91y6yn0710wyhyy855c9vhl8z-kubo-0.22.0"
+        "/nix/store/ldmy7qs46xvxb57qgd6y40pmz8df49ia-kubo-0.28.0"
       ],
-      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
+      "url": "github:NixOS/nixpkgs/2b1f64b358f2cab62617f26b3870fd0ee375d848"
     },
     {
       "active": true,
