@@ -1747,6 +1747,17 @@
         "/nix/store/ykqpjymn78706szy234k8dvx90g0792f-haskell-gtd-0.0.3.3"
       ],
       "url": "path:/Users/anka/dotfiles/local-packages?lastModified=1696208802&narHash=sha256-J8QWwRYtRyghDq3b6c34O1ou2fBPY8to663fclxU4jg="
+    },
+    {
+      "active": true,
+      "attrPath": "legacyPackages.x86_64-darwin.devbox",
+      "originalUrl": "flake:nixpkgs",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/1ndqfagjfyp8j3ahsnxdm7l8g717cfxs-devbox-0.5.11"
+      ],
+      "url": "github:NixOS/nixpkgs/1e44a037bbf4fcaba041436e65e87be88f3f495b"
     }
   ],
   "version": 2
