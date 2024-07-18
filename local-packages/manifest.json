@@ -1803,6 +1803,17 @@
         "/nix/store/ja92szw49wy2kf3q11jn3ggxb3qrv4yl-ast-grep-0.21.0"
       ],
       "url": "github:NixOS/nixpkgs/2b1f64b358f2cab62617f26b3870fd0ee375d848"
+    },
+    {
+      "active": true,
+      "attrPath": "packages.x86_64-darwin.tex",
+      "originalUrl": "git+file:///Users/anka/projekt/gf-ud-exjobb",
+      "outputs": null,
+      "priority": 5,
+      "storePaths": [
+        "/nix/store/isnhdsva3pml3hxl6vc0gqlyx7mr5jyd-texlive-combined-2021"
+      ],
+      "url": "git+file:///Users/anka/projekt/gf-ud-exjobb"
     }
   ],
   "version": 2
