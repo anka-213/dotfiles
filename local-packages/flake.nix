@@ -20,6 +20,10 @@
         import nixpkgs {
           inherit system;
           overlays = overlays;
+          config = {
+            android_sdk.accept_license = true;
+            allowUnfree = true;
+          };
         }
       );
     in
