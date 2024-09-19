@@ -107,6 +107,19 @@
           self.haskellPackages;
       # retrie = super.haskell.lib.generateOptparseApplicativeCompletions ["retrie"] self.haskellPackages.retrie.bin;
     })
+  (self: super: {
+    haskell-docs-cli = with self.haskell.lib;
+      (self.haskellPackages.generateOptparseApplicativeCompletions [ "hdc" ] (justStaticExecutables (overrideCabal self.haskellPackages.haskell-docs-cli
+        (drv: {
+          patches = [
+            (super.fetchpatch {
+              url = "https://github.com/lazamar/haskell-docs-cli/commit/ec917068e1a33350991fab76cf934f274b7f0f72.patch";
+              sha256 = "sha256-oDAb00yH0QshsZQpJedI5eMQ8cNllIJwyNfT61Fl7n0=";
+            })
+          ];
+          broken = false;
+        }))));
+  })
   # (self: super: {
   #   haskellPackages = super.recurseIntoAttrs super.haskellPackages;
   # })
